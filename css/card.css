@@ -5,16 +5,16 @@
 		border:0.5px #3D3D3D groove;border-bottom: none;
 	}
 	.card{
-		margin:40px 20px;height: 400px; border-bottom: 2px #3D3D3D groove;
+		margin:40px 20px;height: 800px; border-bottom: 2px #3D3D3D groove;
 	}
 	.cardintro{
-		margin: 0 20px auto 80px; width: 350px;text-align: center; display: inline-block;float: left;font-size: 25px;
+		position: relative;left: 10px;top:-30px;width: 650px;height: 800px;text-align: center; display: inline-block;float: left;font-size: 25px;
 	}
 	.cardphoto{
 		 height: 320px; display: inline-block;float: left;
 	}
 	.cardphotoimg{
-		height: 320px;width: 480px;display: inline;float:left;
+		height: 350px;width: 300px;display: inline;float:left;
 		
 	}
 	
