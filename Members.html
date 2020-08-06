@@ -11,9 +11,8 @@
 
 <body>
 
-<div style="margin-bottom: 50px; background-color:#497BD8">
-<div class="header"></div>
-<div class="guidelinebox"></div></div>
+<div id="header"></div>
+<div class="guidelinebox" style="position: relative;top: -40px;"></div>
 
 
 <div class="sidebar" style="position: fixed;top: 250px;left: 1350px;"><a style="padding: 4px;" href="#">GO TOP</a></div>
@@ -67,7 +66,7 @@
     <script src="js/jquery.min.js"></script>
     <script>
     $(function(){
-		$(".header").load("public/header.html");
+		$("#header").load("public/header.html");
 		$(".guidelinebox").load("public/guideline.html");
 		$(".mem1").load("members/mem1.html");
 		$(".mem2").load("members/mem2.html");

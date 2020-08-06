@@ -10,10 +10,9 @@
 
 
 <body>
-<div style="margin-bottom: 50px; background-color:#497BD8">
-	<div class="header"></div>
-	<div class="guidelinebox"></div>
-</div>
+
+<div id="header"></div>
+<div class="guidelinebox" style="position: relative;top: -40px;"></div>
     
 <div class="wrap">
 	<div class="sidebar">
@@ -50,7 +49,7 @@
 
 <script>
     $(function(){
-		$(".header").load("public/header.html");
+		$("#header").load("public/header.html");
 		$(".guidelinebox").load("public/guideline.html");
 		$(".pub2020").load("Publications/pub2020.html");
 		$(".pub2019").load("Publications/pub2019.html");
