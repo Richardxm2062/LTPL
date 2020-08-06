@@ -2,7 +2,7 @@
 /* CSS Document */
 
 	.cardbox{
-		border:0.5px #3D3D3D groove;border-bottom: none;
+		border:3px #3D3D3D groove;border-bottom: black;
 	}
 	.card{
 		margin:40px 20px;height: 800px; border-bottom: 2px #3D3D3D groove;
