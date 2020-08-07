@@ -1,13 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-	html,body{
-		font-size: 16px;
-	}
 	.cardbox{
 		border:0.1em #3D3D3D groove;border-bottom: black;
 	}
 	.card{
-		margin:2.5em 1.25em;height: 50em; border-bottom: 0.1em #3D3D3D groove;
+		margin:2.5em 1.25em;height: 55em; border-bottom: 0.1em #3D3D3D groove;
 	}
 	.cardintro{
 		position: relative;left: 0.625em;top:-1.875em;width: 40.625em;height:50em;text-align: center; display: inline-block;float: left;
