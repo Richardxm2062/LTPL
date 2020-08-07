@@ -12,15 +12,13 @@
 	
 	.guidelinebox{
 		background-color: #81020f; 
-		height: 4em;
-		margin-bottom: 1em;
-		position: relative ;top: -2.5%;
+		height: 7%;
+		position: relative;top:-2.2%;
 
 	}
 	.guideline{
 		float: left; position: relative;left: 10%;
 		font-size: 1.5em;
-		padding:0.568em;
 	}
 	a.guideline{
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
@@ -34,7 +32,7 @@
 	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
-	padding:0.568em;
+	padding: 0.78%;
 	}
 	a.guideline:hover,a.guideline:active
 	{
@@ -44,7 +42,6 @@
 	font-weight:bold;
 	background-color:#ffffff;
 	color: black;
-	padding:0.568em;
 	}
 	
 .wrap{
