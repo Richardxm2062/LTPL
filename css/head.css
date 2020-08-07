@@ -12,15 +12,15 @@
 	
 	.guidelinebox{
 		background-color: #81020f; 
-		height: 7%;
+		height: 4em;
 		margin-bottom: 1em;
-		position: relative ;top: -4%;
+		position: relative ;top: -2.5%;
 
 	}
 	.guideline{
 		float: left; position: relative;left: 10%;
 		font-size: 1.5em;
-		padding:0.78%;
+		padding:0.568em;
 	}
 	a.guideline{
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
