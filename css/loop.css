@@ -3,8 +3,8 @@
 				margin-left: auto;
                 margin-right: auto;
                 /* 轮播框单个大小 */
-                width: 100em;                      
-                height:50em;                                  
+                width: 100rem;                      
+                height:50rem;                                  
                 position:relative;
                 overflow: hidden;
                 }
@@ -22,9 +22,8 @@
 
     .viewbox li img{
     /* 图片本身没有默认字体大小，定义1em为16px */
-    font-size: 16px;
-    width: 100em;
-    height: 50em;    
+    width: 100rem;
+    height: 50rem;    
     
     }
 	

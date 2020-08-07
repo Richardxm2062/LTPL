@@ -2,7 +2,7 @@
 /* CSS Document */
 
 	html, body {
-            height: 100%;margin: 0;background-color: #F4F4F2;font-size: 16px;
+            height: 100%;margin: 0;background-color: #F4F4F2;
         }
  
 	li{
@@ -11,26 +11,26 @@
 	
 	.guidelinebox{
 		background-color: #81020f; 
-		height: 4em;
+		height: 4rem;
 		list-style-type:none;
 		position: relative; top:-4%;
-		margin-bottom: 1em;
+		margin-bottom: 1rem;
 	}
 	.guideline{
 		display:inline;float: left; position: relative;left: 10%;
 	}
 	a.guideline{
-		font-size: 1.5em;
+		font-size: 1.5rem;
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
 	}
 	
 	a.guideline:link,a.guideline:visited
 	{
-	font-size: 1.5em;
+	font-size: 1.5rem;
 	color:#FFFFFF;
 	background-color:#81020f;
 	text-align:center;
-	padding:0.5em;	
+	padding:0.5rem;	
 	text-decoration:none;
 	text-transform:uppercase;
 	}
@@ -39,30 +39,30 @@
 	font-weight:bold;
 	background-color:#ffffff;
 	color: black;
-	padding:0.6em;
+	padding:0.88rem;
 	}
 	
 .wrap{
 		min-height: 100%;
 	}
 h1{
-	font-size: 2.5em;
+	font-size: 2.5rem;
 }
 
 h2{
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 h3{
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 
 h4{
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 h5{
-	font-size: 0.5;
+	font-size: 0.5rem;
 }
 
 .news{
