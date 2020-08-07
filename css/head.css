@@ -34,6 +34,7 @@
 	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
+	padding:0.568em;
 	}
 	a.guideline:hover,a.guideline:active
 	{
@@ -43,6 +44,7 @@
 	font-weight:bold;
 	background-color:#ffffff;
 	color: black;
+	padding:0.568em;
 	}
 	
 .wrap{
