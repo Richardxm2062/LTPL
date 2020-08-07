@@ -1,11 +1,12 @@
 /*--loop gallery--*/
 	.slide{                                                         
 				margin-left: auto;
-				margin-right: auto;
-                width: 1200px;                      
-                height: 600px;                                  
+                margin-right: auto;
+                /* 轮播框单个大小 */
+                width: 100em;                      
+                height:50em;                                  
                 position:relative;
-				overflow: hidden;
+                overflow: hidden;
                 }
 	ul.viewbox
 	{
@@ -18,17 +19,19 @@
 		display:inline;
 		float:left;
 	}
-    .viewbox {
-                width: 1200px;
-                height: 600px;
-                position: absolute;
-                left:0;top:0;
-                }
-    .viewbox li img{width: 1200px;height: 600px;}
+
+    .viewbox li img{
+    /* 图片本身没有默认字体大小，定义1em为16px */
+    font-size: 16px;
+    width: 100em;
+    height: 50em;    
+    
+    }
 	
 	.viewbox{
     position: absolute;
     left: 0; top: 0;
+    /*有多少张就填百分之多少比如6张就是600%*/
     width: 500%;
     height: 100%;
     font-size: 0;

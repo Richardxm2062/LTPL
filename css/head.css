@@ -10,8 +10,9 @@
 	}
 	
 	.guidelinebox{
-		background-color: #ac3a05; height: 4em;
+		background-color: #81020f; height: 4em;
 		margin-left: 2em; list-style-type:none;margin:0;padding-left: 12em;
+		position: relative; top:-4%;
 	}
 	.guideline{
 		display:inline;float:left;
@@ -23,9 +24,9 @@
 	
 	a.guideline:link,a.guideline:visited
 	{
-	font-weight:bold;
+	font-size: 1.6em;
 	color:#FFFFFF;
-	background-color:#ac3a05;
+	background-color:#81020f;
 	text-align:center;
 	padding:0.5em;	
 	text-decoration:none;
@@ -33,18 +34,12 @@
 	}
 	a.guideline:hover,a.guideline:active
 	{
-	background-color:#0f36e4;
-	border: 2px solid #0407c2;
+	font-weight:bold;
+	background-color:#ffffff;
+	color: black;
+	padding:0.5em;
 	}
 	
-.flex-container {
-    display: flex;
-	}
-
-.flex-item {
-    height: 100px;
-    margin: 20px;
-	}
 .wrap{
 		min-height: 100%;
 	}
