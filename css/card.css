@@ -5,7 +5,7 @@
 		border:3px #3D3D3D groove;border-bottom: black;
 	}
 	.card{
-		margin:40px 20px;height: 800px; border-bottom: 2px #3D3D3D groove;
+		margin:40px 20px;height: 800px; border-bottom: 0.1em #3D3D3D groove;
 	}
 	.cardintro{
 		position: relative;left: 10px;top:-30px;width: 650px;height: 800px;text-align: center; display: inline-block;float: left;font-size: 25px;

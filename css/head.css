@@ -8,18 +8,16 @@
 	li{
 		list-style-type:none
 	}
-h3{
-	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
-}
+	
 	.guidelinebox{
-		background-color: #ac3a05; height: 60px;
-		margin-left: 35px; list-style-type:none;margin:0;padding-left: 170px;
+		background-color: #ac3a05; height: 4em;
+		margin-left: 2em; list-style-type:none;margin:0;padding-left: 12em;
 	}
 	.guideline{
 		display:inline;float:left;
 	}
 	a.guideline{
-		font-size: 20px;
+		font-size: 1.5em;
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
 	}
 	
@@ -29,7 +27,7 @@ h3{
 	color:#FFFFFF;
 	background-color:#ac3a05;
 	text-align:center;
-	padding:15px;	
+	padding:0.5em;	
 	text-decoration:none;
 	text-transform:uppercase;
 	}
@@ -50,3 +48,31 @@ h3{
 .wrap{
 		min-height: 100%;
 	}
+h1{
+	font-size: 2.5em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 1em;
+}
+
+h5{
+	font-size: 0.5;
+}
+
+.news{
+	display: inline-block;
+}
+
+.contact_us{
+	display: inline-block;
+}
+
