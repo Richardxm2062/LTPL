@@ -3,28 +3,27 @@
 				margin-left: auto;
                 margin-right: auto;
                 /* 轮播框单个大小 */
-                width: 100em;                      
-                height:50em;                                  
-                position:relative;
+                width: 100em;
+                height: 40em;                       
+                position: relative ;
                 overflow: hidden;
                 }
 	ul.viewbox
 	{
 	list-style-type:none;
 	margin:0;
-	padding:0;
+    padding:0;
 	}
 
 	li.viewbox_photo{
 		display:inline;
-		float:left;
+        float:left;
 	}
 
     .viewbox li img{
-    /* 图片本身没有默认字体大小，定义1em为16px */
-    width: 100rem;
-    height: 50rem;    
-    
+        font-size: 16px;
+        width: 100em;
+        height: 40em;                      
     }
 	
 	.viewbox{
