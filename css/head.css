@@ -10,12 +10,14 @@
 	}
 	
 	.guidelinebox{
-		background-color: #81020f; height: 4em;
+		background-color: #81020f; 
+		height: 4em;
 		list-style-type:none;
 		position: relative; top:-4%;
+		margin-bottom: 1em;
 	}
 	.guideline{
-		display:inline;float:left;
+		display:inline;float: left; position: relative;left: 10%;
 	}
 	a.guideline{
 		font-size: 1.5em;
@@ -37,7 +39,7 @@
 	font-weight:bold;
 	background-color:#ffffff;
 	color: black;
-	padding:0.8em;
+	padding:0.6em;
 	}
 	
 .wrap{
