@@ -11,26 +11,25 @@
 	
 	.guidelinebox{
 		background-color: #81020f; 
-		height: 4rem;
-		list-style-type:none;
+		height: 4em;
 		position: relative; top:-4%;
-		margin-bottom: 1rem;
+		margin-bottom: 1em;
 	}
 	.guideline{
 		display:inline;float: left; position: relative;left: 10%;
 	}
 	a.guideline{
-		font-size: 1.5rem;
+		font-size: 1.5em;
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
 	}
 	
 	a.guideline:link,a.guideline:visited
 	{
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	color:#FFFFFF;
 	background-color:#81020f;
 	text-align:center;
-	padding:0.5rem;	
+	padding:0.5em;	
 	text-decoration:none;
 	text-transform:uppercase;
 	}
@@ -39,30 +38,30 @@
 	font-weight:bold;
 	background-color:#ffffff;
 	color: black;
-	padding:0.88rem;
+	padding:0.6em;
 	}
 	
 .wrap{
 		min-height: 100%;
 	}
 h1{
-	font-size: 2.5rem;
+	font-size: 2.5em;
 }
 
 h2{
-	font-size: 2rem;
+	font-size: 2em;
 }
 
 h3{
-	font-size: 1.5rem;
+	font-size: 1.5em;
 }
 
 h4{
-	font-size: 1rem;
+	font-size: 1em;
 }
 
 h5{
-	font-size: 0.5rem;
+	font-size: 0.5em;
 }
 
 .news{
