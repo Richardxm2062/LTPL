@@ -1,20 +1,22 @@
 @charset "utf-8";
 /* CSS Document */
-
+	html,body{
+		font-size: 16px;
+	}
 	.cardbox{
-		border:3px #3D3D3D groove;border-bottom: black;
+		border:0.1em #3D3D3D groove;border-bottom: black;
 	}
 	.card{
-		margin:40px 20px;height: 800px; border-bottom: 0.1em #3D3D3D groove;
+		margin:2.5em 1.25em;height: 50em; border-bottom: 0.1em #3D3D3D groove;
 	}
 	.cardintro{
-		position: relative;left: 10px;top:-30px;width: 650px;height: 800px;text-align: center; display: inline-block;float: left;font-size: 25px;
+		position: relative;left: 0.625em;top:-1.875em;width: 40.625em;height:50em;text-align: center; display: inline-block;float: left;
 	}
 	.cardphoto{
-		 height: 320px; display: inline-block;float: left;
+		 height: 20em; display: inline-block;float: left;
 	}
 	.cardphotoimg{
-		height: 350px;width: 300px;display: inline;float:left;
+		height: 21.875em;width: 18.75em;display: inline;float:left;
 		
 	}
 	
