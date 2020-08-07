@@ -13,6 +13,7 @@
 		background-color: #81020f; 
 		height: 4em;
 		margin-bottom: 1em;
+		position: relative ;top: -4%;
 	}
 	.guideline{
 		display:inline;float: left; position: relative;left: 10%;
