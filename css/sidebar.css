@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-	.sidebar {width:20em; margin: auto 4.5em auto 0;  position: fixed; left:auto; top:50%;
+	.sidebar {width:20em; margin: auto 4.5em auto 0;  position: fixed; left:0; top:50%;
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
 	}
 

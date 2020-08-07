@@ -2,22 +2,25 @@
 /* CSS Document */
 
 	html, body {
-            height: 100%;margin: 0;background-color: #F4F4F2;font-size: 16px;
+        height:100% ; margin: 0;background-color: #F4F4F2;font-size: 16px;
         }
  
 	li{
 		list-style-type:none
 	}
+
 	
 	.guidelinebox{
 		background-color: #81020f; 
-		height: 4em;
+		height: 7%;
 		margin-bottom: 1em;
 		position: relative ;top: -4%;
+
 	}
 	.guideline{
-		display:inline;float: left; position: relative;left: 10%;
+		float: left; position: relative;left: 10%;
 		font-size: 1.5em;
+		padding:0.78%;
 	}
 	a.guideline{
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
@@ -29,12 +32,14 @@
 	color:#FFFFFF;
 	background-color:#81020f;
 	text-align:center;
-	padding:0.58em;	
 	text-decoration:none;
 	text-transform:uppercase;
 	}
 	a.guideline:hover,a.guideline:active
 	{
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
 	font-weight:bold;
 	background-color:#ffffff;
 	color: black;
