@@ -2,8 +2,32 @@
 /* CSS Document */
 
 	html, body {
-        height:100% ; margin: 0;background-color: white;font-size: 6px;
-        }
+        height:100% ; margin: 0;background-color: white;font-size: 16px;
+		}
+		
+		
+
+		.version{
+			font-size: 1.2em;
+		}
+		
+		.version a:link,.version a:visited
+		{
+		color:#FFFFFF;
+		background-color:#81020f;
+		text-align:center;
+		text-decoration:none;
+		font-size: 1.5em;
+		}
+
+		.version a:hover,.version a:active
+		{
+		color:#FFFFFF;
+		background-color:#81020f;
+		text-align:center;
+		font-weight:bold;
+		font-size: 1.5em;
+		}
  
 	.menu ul li{
 		display: inline;
@@ -38,7 +62,7 @@
 	font-size: 1.2em;
 	}
 
-	/* 鼠标放上去或者点击是的超链接状态 */
+	/* 鼠标放上去或者点击时的超链接状态 */
 	a.guideline:hover,a.guideline:active
 	{
 	text-transform:uppercase;
