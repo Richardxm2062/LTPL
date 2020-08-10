@@ -1,27 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
-	html, body {
-        height:100% ; margin: 0;background-color: white;font-size: 16px;
-		}
-		
-		@media only screen and (min-width: 1200px){
 
-			html {
-				font-size: 10%!important;
-			}
-		}
-		@media only screen and (min-width: 1000px){
-			html {
-				font-size: 15%!important;
-			}
- 
-		}
-		@media only screen and (min-width: 6410px){
-			html {
-				font-size: 10%!important;
-			}
-		}
+		
+@media only screen and (max-width: 100px){
+	html body
+	{
+	height:100% ; margin: 0;background-color: white;font-size:8px!important;
+	}
+}
+
+@media only screen and (max-width: 1080px){
+	html body
+	{
+	height:100% ; margin: 0;background-color: white;font-size: 16px!important;
+	}
+ }
+
+ @media only screen and (max-width: 1500px){
+	html body
+	{
+	height:100% ; margin: 0;background-color: white;font-size: 12px!important;
+	}
+}
 
 
 
