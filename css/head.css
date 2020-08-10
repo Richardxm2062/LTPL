@@ -5,12 +5,34 @@
         height:100% ; margin: 0;background-color: white;font-size: 16px;
 		}
 		
+		@media only screen and (min-width: 1200px){
+
+			html {
+				font-size: 10%!important;
+			}
+		}
+		@media only screen and (min-width: 1000px){
+			html {
+				font-size: 15%!important;
+			}
+ 
+		}
+		@media only screen and (min-width: 6410px){
+			html {
+				font-size: 10%!important;
+			}
 		
+
+
+
+
+
+
 
 		.version{
 			font-size: 1.2em;
 		}
-		
+
 		.version a:link,.version a:visited
 		{
 		color:#FFFFFF;
