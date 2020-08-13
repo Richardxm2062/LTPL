@@ -141,15 +141,15 @@ h5{
 }
 
 a.links:hover{
-	color:blue;
+	color:red;
 }
 
 a.links:active{
-	color:blue;
+	color:red;
 }
 
 a.links:link{
-	color:black;
+	color:blue;
 }
 
 a.links:visited{
