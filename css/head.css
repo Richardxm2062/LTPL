@@ -31,12 +31,8 @@ html body
 }
 
 .wrap{
-	min-height: 100em;
+	min-height: 50em;
 }
-
-
-
-
 
 
 
@@ -62,18 +58,17 @@ html body
 		font-size: 1.5em;
 		}
  
-	.menu ul li{
-		display: inline;
-	}
+		.menu ul li{
+			display: inline;
+		}
 
-	.menu{
-		margin-bottom: 1em;
-		height: 4em;
-		width: 100%; 
-		background-color: #81020f;
-		position: relative;top:-1.5em
-		
-	}
+		.menu{
+			margin-bottom: 1em;
+			height: 4em;
+			width: 100%; 
+			background-color: #81020f;
+			position: relative;top:-1.5em
+		}
 
 		
 	.guideline {
@@ -139,3 +134,31 @@ h5{
 	display: inline-block;
 }
 
+
+.Link ul li{
+	font-size: 3em;
+	padding: 0.2em;
+}
+
+a.links:hover{
+	color:blue;
+}
+
+a.links:active{
+	color:blue;
+}
+
+a.links:link{
+	color:black;
+}
+
+a.links:visited{
+	color: blue;
+}
+
+.publication_content{
+	border:0.1em  #000000 groove; width: 50%;margin-left: 25%;margin-bottom: 3%;
+}
+.publication_content ul li{
+	padding:0.3em;font-size: 1.5em;
+}
