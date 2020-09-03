@@ -78,7 +78,7 @@ p{
 
 		
 	.guideline {
-		position: relative;top:1.2em;
+		position: relative;top:0.8em;
 
 	}
 	
@@ -87,18 +87,22 @@ p{
 	/* 正常状态下与被访问后的超链接状态 */
 	a.guideline:link,a.guideline:visited
 	{
-	color:#FFFFFF;
-	background-color:#81020f;
-	text-align:center;
-	text-decoration:none;
-	text-transform:uppercase;
-	padding:1em;
-	font-size: 1.2em;
+		text-decoration: none;
+		text-transform:uppercase;
+		text-align:center;
+		font-weight:bold;
+		color: white;
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		padding-top: 0.8em;
+		padding-bottom: 1.5em;
+		font-size: 1.5em;
 	}
 
 	/* 鼠标放上去或者点击时的超链接状态 */
 	a.guideline:hover,a.guideline:active
 	{
+	text-decoration: none;
 	text-transform:uppercase;
 	text-align:center;
 	font-weight:bold;
@@ -106,9 +110,9 @@ p{
 	color: black;
 	padding-left: 1.2em;
 	padding-right: 1.2em;
-	padding-top: 1.2em;
+	padding-top: 0.8em;
 	padding-bottom: 1.5em;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	}
 	
 
