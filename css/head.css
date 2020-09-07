@@ -66,6 +66,7 @@ p{
  
 		.menu ul li{
 			display: inline;
+			list-style: none;
 		}
 
 		.menu{
@@ -113,6 +114,12 @@ p{
 	padding-top: 0.8em;
 	padding-bottom: 1.5em;
 	font-size: 1.5em;
+	}
+
+
+	.article
+	{
+		
 	}
 	
 
@@ -164,6 +171,12 @@ a.links:link{
 
 a.links:visited{
 	color: blue;
+}
+
+.links
+{
+	display: block;
+	margin-bottom: -0.4em;
 }
 
 .publication_content{
