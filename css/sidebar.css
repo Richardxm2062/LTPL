@@ -5,7 +5,7 @@
 		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana,' sans-serif';
 	}
 
-	.sidebar>a:link,.sidebar>a:visited
+	.sidebar a:link,.sidebar a:visited
 	{
 		color: white;
 		background-color:#02529F;
@@ -13,9 +13,8 @@
 		padding: 5%;
 		border-radius: 0.3em;
 	}
-	.sidebar>a:hover,.sidebar>a:active{
+	.sidebar a:hover,.sidebar a:active{
 		font-size: 1.2em;
-		text-align: right;
 		background-color: #002B52;
 		border-radius: 0.3em;
 	}
