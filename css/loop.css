@@ -1,55 +1,58 @@
 /*--loop gallery--*/
-	.slide{                                                         
-				margin-left: auto;
-                margin-right: auto;
-                /* 轮播框单个大小 */
-                width: 80em;
-                height: 40em;                       
-                position: relative ;
-                overflow: hidden;
-                }
-	.viewbox
-	{
-	list-style:none;
+.slide
+{
+    width: 80rem;
+    height: 40rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.viewbox
+{
+    padding: 0;
+    list-style:none;
     position: absolute;
     /* 清楚inline之间的缝隙 */
-    font-size: 0em;
+    font-size: 0;
     /*有多少张就填百分之多少比如6张就是600%*/
     width: 500%;
     height: 100%;
     transform: translate(0,0); /* 初始位置位移 */
-    animation: loop 35s linear infinite;/*定义总轮播时长*/
-	}
+    animation: loop 25s linear infinite;/*定义总轮播时长*/
+}
 
-	.viewbox_photo{
-		display:inline;
-	}
+.viewbox_photo{
+    display:inline;
+}
 
-    .viewbox>li img{
-        font-size: 16px;                
-        width:20%;height:auto;max-width:100%;max-height:100%;
-    }
+.viewbox_photo>img{         
+width:20%;height:auto;max-width:100%;max-height:100%;
+}
 
-
-/* 创建loop动画规则 */
+/* 创建div loop动画规则 */
 /* 
-   轮播5张，总耗时10s，单张应为2s(20%)
-   单张切换动画耗时500ms，停留1500ms
+轮播5张，总耗时10s，单张应为2s(20%)
+单张切换动画耗时500ms，停留1500ms
 */
 @keyframes loop {
-    0% {transform: translate(0,0);}
-    15% {transform: translate(0,0);} /* 停留1500ms */
+0% {transform: translate(0,0);}
+15% {transform: translate(0,0);} /* 停留1500ms */
 
-    20% {transform: translate(-20%,0);} /* 切换500ms 位移-20% */
-    35% {transform: translate(-20%,0);}
+/*切换耗费500ms*/
 
-    40% {transform: translate(-40%,0);}
-    55% {transform: translate(-40%,0);}
+20% {transform: translate(-20%,0);} /* 切换500ms 位移-20% */
+35% {transform: translate(-20%,0);}
 
-    60% {transform: translate(-60%,0);}
-    75% {transform: translate(-60%,0);}
+40% {transform: translate(-40%,0);}
+55% {transform: translate(-40%,0);}
 
-    80% {transform: translate(-80%,0);}
-    95% {transform: translate(-80%,0);}
-    100% {transform: translate(0,0);} /* 复位到第一张图片 */
+60% {transform: translate(-60%,0);}
+75% {transform: translate(-60%,0);}
+
+80% {transform: translate(-80%,0);}
+95% {transform: translate(-80%,0);}
+100% {transform: translate(0,0);} /* 复位到第一张图片 */
 }
