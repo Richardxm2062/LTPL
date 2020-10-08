@@ -64,7 +64,7 @@ p{
 		font-size: 1.5em;
 		}
  
-		.menu ul li{
+		.menu>ul>li{
 			display: inline;
 		}
 
